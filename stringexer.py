@@ -77,3 +77,18 @@
 # text="welcome to Ooty"
 # print(text[0::3])
 
+"""18. Given a sentence, extract and print the last word using slicing."""
+text="welcome to Delhi"
+print(text[-5:])
+
+"""19. Write a program to swap the first and last characters of a string
+    using slicing."""
+
+"""20. Given a string, print all characters except vowels using slicing and
+    looping logic."""
+# text="I love India"
+# a=text[0:]
+
+
+
+

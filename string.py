@@ -108,7 +108,75 @@ stack="Python Django"
 # print(stack.index('z'))
 # print(stack.index('o'))
 # print(stack.rindex('o'))
-text="welcome to my home welcome to ooty"
-print(text.count('welcome'))
+# text="welcome to my home welcome to ooty"
+# print(text.count('welcome')) 
+"""validation and checking"""
+s='Quest Innovtive Solutions'
+# s1=s.upper()
+# print(s.isalnum)
+# print(s.isalpha()) 
+# pincode='686415'
+# print(pincode.isdigit())
+# space="       "
+# print(space.isspace())
+# salary="15000"
+# print(salary.isdecimal())
+# print(s1.isupper())
+# print(s.islower())
+# print(s.istitle())
+# print(s.startswith('Q')
+"""Formatting and alignment"""
+# s="python"
+# print(s.center(25,'*'))
+# print(s.ljust(25,"*"))
+# print(s.rjust(25,'*'))
+# print(s.isascii('e'))
+# print(s.zfill(10))
+# name="Dheeraj"
+# age=14
+# print("My name is {1} and i'm {0} years old".format(name,age))
+# print("My name is {} and i'm {} years old".format(age,name))
+# print("My name is {1} and i'm {0} years old".format(age,name))
+# print("My name is {:>10} and i'm {} years old".format(name,age))
+# print("My name is {:<10} and i'm {} years old".format(name,age))
+# print("My name is {:^10} and i'm {:05} years old".format(name,age))
+# print(r"my name is PRIYA \n and \t shony")
+# print("abc\" one\" three\`")
+# s="welcome to Delhi"
+# print(s.split())
+s="welcome to Delhi abc akss"
+# print(s.split("-"))
+# print("hello".split('l'))
+# print(s.split("-",3))
+# print(s.rsplit(" ",3))
+# splitted=s.split()
+# print(splitted)
+# joined_string="-".join(splitted)
+# print(joined_string)
+# s1="job=python"
+s1="python"
+# print(s1.partition("="))
+# print(s1.partition("python"))
+# print(s1.partition("python"))
+# print(s1.partition("x"))
+s="my name is Thejas"
+print(s.partition(" "))
+print(s.rpartition(" "))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

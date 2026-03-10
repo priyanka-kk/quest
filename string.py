@@ -160,8 +160,21 @@ s1="python"
 # print(s1.partition("python"))
 # print(s1.partition("x"))
 s="my name is Thejas"
-print(s.partition(" "))
-print(s.rpartition(" "))
+# print(s.partition(" "))
+# print(s.rpartition(" "))
+# print(s.encode(encoding="utf-8",errors="strict"))
+# encoded=s.encode()
+# decoded=encoded.decode()
+# print(decoded)
+# print("hello\tpython".expandtabs(50 ))
+
+# print("sayanax".translate({97:'x', 115:'y'}))
+# print(chr(111))
+# print(chr(108))
+# print("Hello world".translate({111:'0',108:'!'}))
+# table=s.maketrans('abcxyz','xyzabc')
+# print(s.translate(table))
+# print(table)
 
 
 

@@ -63,6 +63,100 @@ s="welcome to my home"
 # print(s.replace('Quest','Talent'))
 
 """15. Remove leading and trailing spaces from a string."""
-s="          Quest Innovative Solutions                "
-print(s.strip())
+# s="          Quest Innovative Solutions                "
+# print(s.strip())
 
+"""INTERMEDIATE LEVEL"""
+"""1. Check whether a string contains only alphabets."""
+# s="welcometoKozhikode"
+# print(s.isalpha())
+
+"""2. Check whether a string contains only digits."""
+# n="12345678910"
+# print(n.isdigit())
+
+"""3. Check whether a string is alphanumeric."""
+# s="abcdefghijklmn123356778"
+# print(s.isalnum())
+
+"""4. Split a sentence into words using split()."""
+# s="seena sings a song"
+# print(s.split())
+
+"""5. Join a list of words into a single string."""
+# text=["welcome","to","my","home"]
+# joined=" ".join(text)
+# print(joined)
+
+"""6. Find the first occurrence of a substring in a string."""
+# s="abc abcd abcdef abcdefg"
+# print(s.find("d"))
+
+"""7. Find the last occurrence of a substring in a string."""
+# s="mathematics"
+# print(s.rfind("a"))
+
+"""8. Remove a prefix from a string."""
+# s="Dr.Jayasree Rajagopal"
+# print(s.removeprefix("Dr."))
+
+"""9. Remove a suffix from a string."""
+# s="Dr.Jayasree Rajagopal MBBS DNB"
+# print(s.removesuffix("DNB"))
+
+"""10. Center align a string within a given width."""
+# s="Happy Onam"
+# print(s.center(25))
+
+"""11. Left justify and right justify a string."""
+# s="Happy Onam"
+# print(s.ljust(25))
+# print(s.rjust(25))
+
+"""12. Pad a number string with zeros using zfill()."""
+# s="Happy Onam"
+# print(s.zfill(15))
+
+"""13. Use format() method in string formatting."""
+# name1="Thejas"
+# name2="Aadidev"
+# print("My name is {} and my friend's name is {}".format(name1,name2))
+
+"""14. Create a formatted string using f-strings."""
+# a=8 
+# b=14
+# print(f"the sum of numbers {a} and {b} are {a+b}")
+
+"""15. Use partition() to split a string into three parts."""
+# s="I=love my country"
+# print(s.partition("="))
+
+"""Logical problem solving"""
+"""1. Check whether a string is a palindrome."""
+# s=input("enter a string")
+# temp=s
+# reverse=s[::-1]
+# if reverse==temp:
+#     print("The string is palyndrome")
+# else:
+#     print("The string is not palyndrome")
+
+"""2. Count the number of vowels and consonants in a string."""
+
+# s=input("Enter a string:")
+# vcount=0
+# slen=len(s)
+# for i in range(slen):
+#     if s[i] in 'aeiouAEIOU':
+#         vcount+=1
+# ccount=slen-vcount
+# print(f"The number of vowels in the string is {vcount}")
+# print(f"The number of consonants in the string is {ccount}")
+
+"""3. Remove duplicate characters from a string."""
+# s=input("Enter a string:")
+# res=""
+# for char in s:
+#     if char not in res:
+#         res+=char
+# print(f"String after removing : {res}")

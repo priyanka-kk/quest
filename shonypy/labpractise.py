@@ -32,8 +32,8 @@
 
 """ ------------------------------------"""
 
-# line_str = input("Please enter a string:")
-# s=line_str.lower()
+line_str = input("Please enter a string:")
+s=line_str.lower()
 
 # p = ""
 # a = 0
@@ -91,15 +91,15 @@
 
 """ 3. Remove duplicate characters from a string."""
 
-line_str = input("Please enter a string:")
-s=line_str.lower()
+# line_str = input("Please enter a string:")
+# s=line_str.lower()
 
-p = ""
+# p = ""
 
-for i in s:
-    if i not in p:
+# for i in s:
+#     if i not in p:
         
-        p = p + i
+#         p = p + i
 
-print(f"{p}")
+# print(f"{p}")
     

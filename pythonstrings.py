@@ -3,7 +3,7 @@
 # print(s)
 
 """2. Print each character of a string using indexing."""
-s="welcome to my home"
+# s="welcome to my home"
 # for i in range(len(s)):
 #     print(s[i])
 
@@ -160,3 +160,95 @@ s="welcome to my home"
 #     if char not in res:
 #         res+=char
 # print(f"String after removing : {res}")
+
+"""4. Find the most frequent character in a string."""
+# s=input("Enter a string:")
+# p=""
+# a=0
+# b=0
+# for i in s:
+#     a=s.count(i)
+#     if a>b:
+#         b=a
+#         p=i
+# print(f"The most frequent character is {p} repeated {b} times")
+
+"""5. Check if two strings are anagrams."""
+# t1=input("Enter first string:")
+# t2=input("Enter second string:")
+# a=t1.lower()
+# b=t2.lower()
+# if sorted(a)==sorted(b):
+#     print("Anagrams")
+# else:
+#     print("Not Anagrams")
+
+"""6. Reverse each word in a sentence without reversing the sentence order"""
+# s=input("Enter a string:")
+# s1=s.split()
+# p=""
+# for i in s1:
+#     p=p+" "+i[::-1]
+# print(f"The reversed string is {p.strip()}")
+
+"""7. Find the longest word in a sentence"""
+# s=input("Enter the string :")
+# sp=s.split()
+# a=0
+# b=0
+# p=""
+# for i in sp:
+#     a=len(i)
+#     if a>b:
+#         b=a
+#         p=i
+# print(f"The largest word in a sentence is {p}")
+
+"""9. Remove all spaces from a string."""
+# s=input("Enter a string :")
+# a=s.replace(" ","")
+# print(a)
+
+"""10. Convert the first letter of every word to uppercase without using title()"""
+# s=input("Enter a string :")
+# a=s.split()
+# p=""
+# for i in a:
+#     p=p+" "+i.capitalize()
+# print(p.strip())
+
+"""11. Extract digits from a string and store them separately."""
+# s=input("Enter a string :")
+# p=""
+# for i in s:
+#     if i.isdigit():
+#         p=p+str(i)
+# print(p)
+
+"""12. Count the number of words in a sentence"""
+# s=input("Enter a string :")
+# count=0
+# a=s.split()
+# for i in a:
+#     count+=1
+# print(count)
+
+"""13. Replace multiple spaces with a single space."""
+# s=input("Enter a string :")
+# a=s.replace("  "," ")
+# print(a)
+
+"""14. Check whether a string contains special characters"""
+# s=input("Enter a string :")
+# if s.isalnum():
+#     print("No special characters")
+# else:
+#     print("Special characters present")
+
+"""15. Find the ASCII value of each character."""
+# s=input("Enter a string :")
+# for i in s:
+#     a=ord(i)
+#     print(f"{i} : {a}")
+    
+

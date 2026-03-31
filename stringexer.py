@@ -44,7 +44,7 @@
     length can be even or odd)."""
 # text="malayalam"
 # count=len(text)
-# print(text[4:count-4])
+# print(text[4:count-4]) 
 
 """11. Write a program to check whether a string is a palindrome using
     slicing."""

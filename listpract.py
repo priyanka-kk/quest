@@ -1,20 +1,9 @@
-""" 16. Write a program to remove duplicates from a list.
-2
-17. Find the second largest element in a list.
-3
-18. Write a program to rotate a list to the left by one position.
-4
-19. Write a program to rotate a list to the right by one position.
-5
-20. Move a specific element (e.g., 50) to the first position of a list.
-6
-21. Create a list of squares of numbers from 1–10 using list comprehension.
-7
-22. Create a list containing only odd numbers from 1–50 using list comprehension.
-8
-23. Write a program to merge two lists and remove duplicates.
-9
-24. Find the sum of all elements in a list without using sum()
+"""  25. Write a program to find common elements between two lists.
+11 26. Write a program to split a list into two halves.
+12 27. Find the index of a given element without using index().
+13 28. Write a program to flatten a nested list.
+14 29. Create a program to find the frequency of each element in a list.
+15 30. Reverse each element of a list of strings.
 """
 
 """1. Create a list of five integers and print all elements using a for loop."""
@@ -107,17 +96,93 @@
 # print(list(set(numbers)))
 
 """17. Find the second largest element in a list."""
-large=0
-s_large=0
-numbers=[7,5,8,2,4,3,45,67,98,2,2]
-for i in range(len(numbers)):
-    if i>large:
-        s_large=large
-        large=numbers[i]
-    elif large>numbers[i]>s_large:
-        s_large=numbers[i]
-print(s_large)
+# large=0
+# s_large=0
+# numbers=[7,5,8,4,28,45,67,98,76]
+# for i in range(len(numbers)):
+#     if numbers[i]>large:
+#         s_large=large
+#         large=numbers[i]
+#     elif large>numbers[i]>s_large:
+#         s_large=numbers[i]
+# print(s_large)
+
+"""18. Write a program to rotate a list to the left by one position."""
+# numbers=[7,5,8,4,28,45,67,98,76]
+# s=numbers.pop(0)
+# numbers.append(s)
+# print(numbers)
+
+"""19. Write a program to rotate a list to the right by one position."""
+# numbers=[7,5,8,4,28,45,67,98,76]
+# s=numbers.pop()
+# numbers.insert(0,s)
+# print(numbers)
+
+"""20. Move a specific element (e.g., 50) to the first position of a list."""
+# numbers=[7,5,8,4,28,45,67,98,76]
+# s=numbers.pop(5)
+# numbers.insert(0,s)
+# print(numbers)
     
+"""21. Create a list of squares of numbers from 1–10 using list comprehension."""
+# squares=[i**2 for i in range(1,11)]
+# print(squares)
+
+"""22. Create a list containing only odd numbers from 1–50 using list comprehension."""
+# odd_numbers=[i for i in range(1,51) if i%2!=0]
+# print(odd_numbers)
+
+"""23. Write a program to merge two lists and remove duplicates."""
+# list1=[1,2,3,4,5,6,2,4]
+# list2=[6,7,8,9,10,8,9,10]
+# s=list1+list2
+# res=list(set(s))
+# print(res)
+
+"""24. Find the sum of all elements in a list without using sum()"""
+# nums=[1,2,3,4,5,6,7,8,9,10]
+# tot=0
+# for i in nums:
+#     tot+=i
+# print(tot)
+
+"""25. Write a program to find common elements between two lists."""
+# re_list=[]
+# list1=[1,2,3,4,10,9,6,2,4,7]
+# list2=[6,7,8,9,10,8,9,10]
+# for i in list1:
+#     if i in list2:
+#         re_list.append(i)
+# print(re_list)
+
+"""26. Write a program to split a list into two halves."""
+# list1=[1,2,3,4,5,6,7,8,9,10]
+# l=int(len(list1)/2)
+# a=list1[0:l]
+# b=list1[l:]
+# print(a,"\n",b)
+
+"""27. Find the index of a given element without using index(). """
+# list1=[1,2,3,4,5,6,7,8,9,10]
+# print(list1)
+# num = int(input("Please select the number you want to know the index:"))
+# for i in range(len(list1)):
+#     if list1[i]==num:
+#         break
+# print(i)
+
+""" 28. Write a program to flatten a nested list."""
+nums=[1,[2,3],4,5,[6,7],9,8,10]
+s=[]
+for i in nums:
+    if type(i)==list:
+        for x in i:
+            s.append(x)
+    else:
+        s.append(i)
+print(s)
+
 
 
 

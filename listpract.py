@@ -1,11 +1,3 @@
-"""  25. Write a program to find common elements between two lists.
-11 26. Write a program to split a list into two halves.
-12 27. Find the index of a given element without using index().
-13 28. Write a program to flatten a nested list.
-14 29. Create a program to find the frequency of each element in a list.
-15 30. Reverse each element of a list of strings.
-"""
-
 """1. Create a list of five integers and print all elements using a for loop."""
 # numbers=[1,2,3,4,5]
 # for i in numbers:
@@ -105,7 +97,7 @@
 #         large=numbers[i]
 #     elif large>numbers[i]>s_large:
 #         s_large=numbers[i]
-# print(s_large)
+# print("second largest number is",s_large)
 
 """18. Write a program to rotate a list to the left by one position."""
 # numbers=[7,5,8,4,28,45,67,98,76]
@@ -120,7 +112,7 @@
 # print(numbers)
 
 """20. Move a specific element (e.g., 50) to the first position of a list."""
-# numbers=[7,5,8,4,28,45,67,98,76]
+# numbers=[7,5,8,4,28,50,67,98,76]
 # s=numbers.pop(5)
 # numbers.insert(0,s)
 # print(numbers)
@@ -161,7 +153,7 @@
 # l=int(len(list1)/2)
 # a=list1[0:l]
 # b=list1[l:]
-# print(a,"\n",b)
+# print("a=",a,"\n","b=",b)
 
 """27. Find the index of a given element without using index(). """
 # list1=[1,2,3,4,5,6,7,8,9,10]
@@ -173,15 +165,100 @@
 # print(i)
 
 """ 28. Write a program to flatten a nested list."""
-nums=[1,[2,3],4,5,[6,7],9,8,10]
-s=[]
-for i in nums:
-    if type(i)==list:
-        for x in i:
-            s.append(x)
-    else:
-        s.append(i)
-print(s)
+# nums=[1,[2,3],4,5,[6,7],9,8,10]
+# s=[]
+# for i in nums:
+#     if type(i)==list:
+#         for x in i:
+#             s.append(x)
+#     else:
+#         s.append(i)
+# print(s)
+
+"""29. Create a program to find the frequency of each element in a list."""
+# nums=[1,2,3,4,5,6,7,8,9,10,5,6,7,8]
+# for i in set(nums):
+#     print(f"{i} : {nums.count(i)}")
+
+"""30. Reverse each element of a list of strings"""
+# lstr=['cat','rat','dog','goat','lion']
+# rev_str=[]
+# for i in lstr:
+#     rev_str.append(i[::-1])
+# print(rev_str)
+
+"""31. Implement a matrix using nested lists and print it in matrix format."""
+# matrix=[[0,1,2],[3,4,5],[6,7,8]]
+# for i in matrix:
+#     for j in i:
+#         print(j,end=" ")
+#     print()
+
+"""32. Write a program to add two matrices using nested lists."""
+# matrrix1=[[0,1,2],[3,4,5],[6,7,8]]
+# matrix2=[[4,5,6],[8,9,10],[1,2,3]]
+# s = []
+# for i in range(len(matrrix1)):
+#     b = []
+#     for j in range(len(matrix2)):
+#         a = matrrix1[i][j] + matrix2[i][j]
+#         b.append(a)
+#     s.append(b)
+# for x in s:
+#     print(x)
+
+"""33. Write a program to transpose a matrix."""
+# matrrix1=[[0,1,2],[3,4,5],[6,7,8]]
+# s=[]
+# for i in range(len(matrrix1)):
+#     b=[]
+#     for j in range (3):
+#         b.append(matrrix1[j][i])
+#     s.append(b)
+# for x in s:
+#     print(x)
+
+"""34. Flatten a 2D list into a single list using list comprehension."""
+# list1=[[0,1,2],[3,4,5],[6,7,8]]
+# list2=[x for i in list1 for x in i]
+# print(list2)
+
+""" 35. Find the largest sublist length in a nested list.
+6
+36. Write a program to find the intersection of multiple lists.
+7
+37. Write a program to group list elements by their length (strings).
+8
+38. Implement a simple stack using a Python list.
+9
+39. Implement a queue using a Python list.
+10 40. Write a program to shuffle elements in a list.
+11 41. Write a program to find the kth largest element in a list.
+12 42. Write a program to check whether a list is a palindrome.
+13 43. Write a program to generate all possible pairs from a list.
+14 44. Create a list of prime numbers within a given range using list comprehension.
+15 45. Write a program to remove all negative numbers from a list."""
+
+""" 35. Find the largest sublist length in a nested list."""
+# nested = [[1, 2, 3], [4, 5], [6, 7, 8, 9,10], [11,12]]
+# max_len = 0
+# for i in nested:
+#     if len(i) > max_len:
+#         max_len = len(i)
+# print(max_len)
+
+
+
+
+
+
+        
+
+    
+    
+    
+
+
 
 
 

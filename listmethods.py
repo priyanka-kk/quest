@@ -34,18 +34,19 @@ sample_list=[4,7,9,6,1,2,3,4,7,20,10,100]
 # print(s)
 
 """copy"""
-copy_list=sample_list.copy
+# copy_list=sample_list.copy
 # print(copy_list)
 # copy_list[3]=600
 
 # print(copy_list)
 # print(sample_list)
-# numbers
-#     print(numbers)
 
+"""print squares from 1 to 10 using list comprehension"""
 # square=[i**2 for i in range(1,11)]
 # print(square)
 
+"""from numbers 1 t0 10 print squares if the number is even 
+print cube if the number is odd"""
 # sq_cube=[]
 # for i in range(1,11):
 #     if i%2==0:
@@ -54,29 +55,27 @@ copy_list=sample_list.copy
 #         sq_cube.append(i**3)
 # print(sq_cube)
 
-new_list = [x**2 if x%2==0 else x**3 for x in range(1,11)]
-print(new_list)
+# new_list = [x**2 if x%2==0 else x**3 for x in range(1,11)]
+# print(new_list)
 
+"""convert the elements of a list to uppercase"""
 # s=['priyanka','dheeraj','thejas']
-
 # up_list=[i.upper() for i in s]
 # print(up_list)
 
+"""find the length of the element in the list"""
 # s=['priyanka','dheeraj','thejas']
 # lengtht=[len(i) for i in s]
 # print(lengtht)
 
 """start at vowels convert to uppercase  consonants to title case """
 # s=['priyanka','dheeraj','thejas', "orange","ana"]
-
 # my_list=[x.upper() if x[0] in "AEIOUaeiou" else x.title() for x in s]
 # print(my_list)
 
 """in a list of +ve and _ve extract only +ve numbers """
 # l=[2,4,8,-9,-7,-6]
-
 # my_list = [x for x in l if x>0]
-
 # print(my_list)
 
 """extract vowels in a string"""
@@ -85,18 +84,15 @@ print(new_list)
 # print(re)
 
 """find the common elements"""
-
 # list1=[1,2,3,4,5]
 # list2=[4,5,6,7,8,9]
-
 # my_list = [x for x in list1 for y in list2 if x==y]
-
 # print(my_list)
 
-s=['1','2','3','4', "ss", "rd"]
-my_list= [int(x) for x in s if x.isdigit()]
-
-print(my_list)
+"""print only the digits present in the list"""
+# s=['1','2','3','4', "ss", "rd"]
+# my_list= [int(x) for x in s if x.isdigit()]
+# print(my_list)
 
 
 

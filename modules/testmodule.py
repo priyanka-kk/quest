@@ -117,20 +117,67 @@ from datetime import *
 # print("Your OTP is:", otp)
 
 """safety pin game"""
-import random
-print("Welcome to the Safety Pin Game!")
-# Randomly hide the safety pin in one box
-safe_pin = random.randint(1, 5)
-print("There are 5 boxes.")
-print("One box contains the safety pin.")
-# User guess
-guess = int(input("Choose a box number (1-5): "))
-# Check result
-if guess == safe_pin:
-    print(" You found the safety pin! You Win!")
-else:
-    print(" Wrong box!")
-    print("Safety pin was in box:", safe_pin)
+# import random
+# print("Welcome to the Safety Pin Game!")
+# # Randomly hide the safety pin in one box
+# safe_pin = random.randint(1, 5)
+# print("There are 5 boxes.")
+# print("One box contains the safety pin.")
+# # User guess
+# guess = int(input("Choose a box number (1-5): "))
+# # Check result
+# if guess == safe_pin:
+#     print(" You found the safety pin! You Win!")
+# else:
+#     print(" Wrong box!")
+#     print("Safety pin was in box:", safe_pin)
+
+"""display the current date and time"""
+# import datetime 
+# now=datetime.datetime.now()
+# print(now) # 2026-05-11 21:21:46.383365
+
+"""format the date as DD-MM-YYYY"""
+# import datetime 
+# today=datetime.datetime.now()
+# formatted_date=today.strftime("%d-%m-%Y")
+# print(formatted_date) #11-05-2026
+
+"""find the number of days between two dates"""
+# import datetime
+# date1=datetime.date(2026,5,1)
+# date2=datetime.date(2026,5,11)
+# difference=date2-date1
+# print("number of days :",difference.days)
+
+"""Online Shopping Analytics System 
+1. use map() to add 18% GST to each product price
+2.use filter() to find products costing above Rs.1000/-
+3.use reduce to calculate the total bill amount"""
+# prices=[1200,450,800,1500,3000,650]
+# print("Online Shopping Analytics System")
+# GST_price=list(map(lambda x:x-(x*18)/100,prices ))
+# print("GST price :",GST_price)
+# cost_above_1000=list(filter(lambda x: x>1000,prices))
+# print("Products costing above 1000 :",cost_above_1000)
+# from functools import reduce
+# total_bill_amount=reduce(lambda x,y:x+y,prices)
+# print("Total bill amount :",total_bill_amount)
+
+"""Appointment Token Generator"""
+# import random 
+# print("Appointment Token Generator")
+# token_number=random.randint(1000,9999)
+# print("random token number :",token_number)
+# import datetime
+# today=datetime.datetime.now()
+# print("current date and time :",today)
+# ids=["APT101","APT102","APT103","APT104","APT105","APT106"]
+# random_ids = random.sample(ids, 5)
+# print("5 random appointment ids are ",random_ids)
+
+
+
 
 
 

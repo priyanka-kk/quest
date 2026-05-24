@@ -1,0 +1,7 @@
+{'Name': 'Priyanka', 'Phone': '+918547690846', 'Phone2': '+919035076908', 'Email': 'priyanka@gmail.com', 'Email2': 'priyanka1@gmail.com'}
+{'Name': 'Priyanka', 'Phone': '+918547690846', 'Phone2': '+919035076908', 'Email': 'priyanka@gmail.com', 'Email2': 'priyanka1@gmail.com'}
+{'Name': 'Sita', 'Phones': ['+918567690846', '+918590690846'], 'Emails': ['sita@gmail.com']}
+{'Name': 'Thejas', 'Phones': ['+919495612673', '+919496453218'], 'Emails': ['thejas@gmail.com']}
+{'Name': 'Sanand', 'Phones': ['+918921526897', '+917510760518'], 'Emails': ['sanand@gmail.com']}
+{'Name': 'Bb', 'Phones': ['+911234567890'], 'Emails': ['bbgg@gmail.com']}
+{'Name': 'Beena', 'Phones': ['+917423569010'], 'Emails': ['beena@gmail.com']}

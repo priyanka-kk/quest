@@ -144,12 +144,12 @@
 """1.Write a function student_info(name, age, course) and call it using positional arguments."""
 # def student_info(name, age, course):
 #     print(f"Name: {name}, Age: {age}, Course: {course}")
-# student_info("smitha",46,"Python")
+# student_info("smitha",23,"Python")
 
 """2. Write the same function and call it using keyword arguments."""
 # def student_info(name, age, course):
 #     print(f"Name: {name}, Age: {age}, Course: {course}")
-# student_info(age=46,name="Smitha",course="Python")
+# student_info(age=23,name="Smitha",course="Python")
 
 """3. Write a function power(base, exp=2) that returns the power of a number using a default argument."""
 # def power(base,exp=2):
@@ -184,7 +184,7 @@
 # def user_details(**kwargs):
 #     for key,value in kwargs.items():
 #         print(key,":",value)
-# user_details(name="Thejas",age=16,city="Calicut")
+# user_details(name="Thejas",age=11,city="Calicut")
 
 """9. Write a function bill(item, quantity, price) and calculate total bill."""
 # def bill(item, quantity, price):

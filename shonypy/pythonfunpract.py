@@ -217,31 +217,77 @@
 # print(find_maximum(45,67,89,98,23,34))
 
 """36. Write a function `display_subjects(*subjects)` that prints all subject names."""
-def display_subjects(*subjects):
-    for subject in subjects:
-        print(subject)
-display_subjects("English", "Maths", "Science", "Social", "Malayalam")
+# def display_subjects(*subjects):
+#     for subject in subjects:
+#         print(subject)
+# display_subjects("English", "Maths", "Science", "Social", "Malayalam")
 
 """37. Write a function `average_marks(*marks)` that returns the average."""
-def average_marks(*marks):
-    if not marks:
-        return 0
-    avg_marks=sum(marks)/len(marks)
-    return avg_marks
-print(average_marks(45,48,49,43,47))
+# def average_marks(*marks):
+#     if not marks:
+#         return 0
+#     avg_marks=sum(marks)/len(marks)
+#     return avg_marks
+# print(average_marks(45,48,49,43,47))
 
-"""38. Write a function `shopping_total(*prices)` that returns total amount.
+"""38. Write a function `shopping_total(*prices)` that returns total amount."""
+# def shopping_total(*prices):
+#     total_amount=sum(prices)
+#     return total_amount
+# print(shopping_total(100,200,234,256,765))
 
-39. Write a function `student_profile(**details)` that prints all key-value pairs.
+"""39. Write a function `student_profile(**details)` that prints all key-value pairs."""
+# def student_profile(**details):
+#     for key, value in details.items():
+#         print(key, ":", value)
+# student_profile(name="Kiranchand",age=20,course="Python", place="Calicut")
 
-40. Write a function `employee_record(**data)` to print employee details.
+"""40. Write a function `employee_record(**data)` to print employee details."""
+# def employee_record(**data):
+#     for key,value in data.items():
+#         print(key, ":" ,value) 
+# employee_record(name="Veena",age=49,job="Teacher",salary=60000)
 
-41. Write a function `product_details(**info)` for an ecommerce product.
+"""41. Write a function `product_details(**info)` for an ecommerce product."""
+# def product_details(**data):
+#     for key, value in data.items():
+#         print(key, ":", value)
+# product_details(product="Laptop",brand="HP",price=55000,stock=12,rating=4.5)
 
-42. Write a function `user_settings(**settings)` to simulate app preferences.
+"""42. Write a function `user_settings(**settings)` to simulate app preferences."""
+# def user_settings(**settings):
+#     print("User App Preferences:")
+#     for key, value in settings.items():
+#         print(key, ":", value)
+# user_settings(theme="Dark",language="English",notifications=True,font_size="Medium")
 
-43. Write a function `create_resume(**details)` to print formatted resume data.
+"""43. Write a function `create_resume(**details)` to print formatted resume data."""
+# def create_resume(**details):
+#     print("------ RESUME ------")
+#     for key, value in details.items():
+#         print(key.title(), ":", value)
+# create_resume(name="Dhyanchand",age=24,qualification="BCA",skills="Python, SQL",experience="Fresher",location="Calicut")
 
-44. Write a function `report_card(name, *marks, **details)`.
+"""44. Write a function `report_card(name, *marks, **details)`."""
+# def report_card(name, *marks, **details):
+#     print("----- REPORT CARD -----")
+#     print("Name :", name)
+#     print("Marks :", marks)
+#     print("Total :", sum(marks))
+#     print("Average :", sum(marks) / len(marks))
+#     print("\nAdditional Details:")
+#     for key, value in details.items():
+#         print(key, ":", value)
+# report_card("Dheeraj",45, 48, 50, 47,grade="A",course="BCA",place="Calicut")
 
-45. Write a function `invoice(customer_name, *items, **meta)`."""
+"""45. Write a function `invoice(customer_name, *items, **meta)`."""
+# def invoice(customer_name, *items, **meta):
+#     print("----- INVOICE -----")
+#     print("Customer Name :", customer_name)
+#     print("\nItems Purchased:")
+#     for item in items:
+#         print("*", item)
+#     print("\nAdditional Information:")
+#     for key, value in meta.items():
+#         print(key, ":", value)
+# invoice("Bhavyalakshmi","Laptop","Mouse","Keyboard",bill_no=1023,payment="Online",delivery="Express")
